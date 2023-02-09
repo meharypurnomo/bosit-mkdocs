@@ -1,5 +1,14 @@
 site_name: BosIT Documentation Center
+site_url: https://klakklik.id
 copyright: Copyright &copy; 2016 - 2023 Klakklik Inovasi Digital
+nav:
+  - Home:
+    - index.md
+  - Awesome Apps: apps.md
+  - User Guide:
+    - bosit/index.md
+    - Asset Management: bosit/asset_management/index.md
+    - Support Center: bosit/support_center/index.md
 plugins:
   - search
 theme:

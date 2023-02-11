@@ -1,16 +1,17 @@
-site_name: BosIT Documentation Center
+site_name: BOS-IT (Business Operational with Infrastructure Technology)
 site_url: https://docs.klakklik.id/
 site_dir: '../docs/bosit/'
 copyright: Copyright &copy; 2016 - 2023 Klakklik Inovasi Digital
 nav:
-  - Home:
+  - Documentation :
+    - Back To Site: https://docs.klakklik.id/
     - index.md
-  - Apps: 
-    - apps/index.md
+  - Getting Started: 
+    - getting-started/installation.md
   - User Guide:
-    - Asset Management: apps/asset_management/index.md
-    - Support Center: apps/support_center/index.md
-    - ICT Monitoring: apps/ict_monitoring/index.md
+    - Asset Management: getting-started/asset_management/index.md
+    - Support Center: getting-started/support_center/index.md
+    - ICT Monitoring: getting-started/ict_monitoring/index.md
 plugins:
   - search
 theme:
@@ -78,6 +79,8 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
+extra_css:
+  - stylesheets/extra.css
 extra:
   generator: false
   social:
